@@ -24,5 +24,14 @@ namespace Oef2._2
         {
             InitializeComponent();
         }
+        private void ButtonVisible_Click(object sender, RoutedEventArgs e)
+        {
+            LabelGeel.Visibility = Visibility.Collapsed;
+        }
+
+        private void ButtonCollapsed_Click(object sender, RoutedEventArgs e)
+        {
+            LabelGeel.Visibility = Visibility.Visible;
+        }
     }
 }
